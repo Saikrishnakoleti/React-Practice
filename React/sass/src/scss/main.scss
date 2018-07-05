@@ -1,0 +1,7 @@
+@import "../../node_modules/bootswatch/dist/cosmo/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootswatch/dist/cosmo/bootswatch";
+.dropdown-menu .dropdown-item{
+    text-transform: capitalize;
+    font-size: 1rem
+}

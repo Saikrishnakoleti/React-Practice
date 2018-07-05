@@ -1,0 +1,82 @@
+body {
+
+  padding: 0px;
+  margin: 0;
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: blue;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    font-family: "Bedrocks";
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 80px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    font-size: 15px;
+    min-width: 170px;
+    line-height: 3px;
+    padding: 5px;
+}
+
+.dropdown-content NavLink {
+    color: blue;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content :hover {background-color: pink}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+.float{
+  float: right;
+  min-width: 130px;
+  line-height: 2px;
+}
